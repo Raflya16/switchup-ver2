@@ -1,0 +1,8 @@
+/* Animasi hover untuk kartu barang */
+.inventory-card:hover .delete-btn {
+    opacity: 1;
+}
+
+.hide-scroll::-webkit-scrollbar { display: none; }
+/* Tambahan shadow halus untuk foto profil */
+.profile-shadow { box-shadow: 0 8px 24px rgba(79, 70, 229, 0.15); }

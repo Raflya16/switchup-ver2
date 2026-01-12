@@ -1,0 +1,4 @@
+/* Styling tambahan untuk status badge */
+.status-badge {
+    @apply text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wide;
+}

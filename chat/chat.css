@@ -1,0 +1,29 @@
+/* Styling Bubble Chat */
+.bubble {
+    max-width: 75%;
+    padding: 10px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 1.4;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.bubble-me {
+    background-color: #4F46E5; /* Primary */
+    color: white;
+    border-bottom-right-radius: 4px;
+    margin-left: auto; /* Rata kanan */
+}
+
+.bubble-other {
+    background-color: white;
+    color: #1F2937;
+    border: 1px solid #E5E7EB;
+    border-bottom-left-radius: 4px;
+    margin-right: auto; /* Rata kiri */
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background-color: #D1D5DB; border-radius: 10px; }
